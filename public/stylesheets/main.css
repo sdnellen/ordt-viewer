@@ -1,0 +1,57 @@
+/* need to explicitly set width of name dropdowns on filter page */
+#rstype{
+ width:130px;   
+}
+#rntype{
+ width:130px;   
+}
+#namemode{
+ width:130px;   
+}
+#fntype{
+ width:130px;   
+}
+#fnamemode{
+ width:130px;   
+}
+
+/* need to explicitly set width of reg width input on filter page */
+#rwidth{
+ width:80px;   
+}
+
+/* need to explicitly set width of field access input on filter page */
+#faccess{
+ width:100px;   
+}
+
+/* need to explicitly set width of reg category input on filter page */
+#rcat{
+ width:250px;   
+}
+
+/* need to explicitly set width of field subcategory input on filter page */
+#fscat{
+ width:100px;   
+}
+
+/* need to explicitly set width of ancestor rep input in ancestors js */
+#ancrepinput{
+ width:80px;   
+}
+
+/* need to explicitly set width of value input in fields js */
+.valinput{
+ width:40px;   
+}
+
+/* constrain table column wrap - used for filename in load table */
+.wrappable { 
+      overflow: hidden; 
+      max-width: 800px; 
+      word-wrap: break-word; 
+}
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
