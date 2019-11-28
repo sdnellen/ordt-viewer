@@ -18,7 +18,7 @@ libraryDependencies += "org.hibernate" % "hibernate-core" % "5.3.7.Final"
 //libraryDependencies += "org.hibernate" % "hibernate-core" % "5.2.5.Final"
 
 // adding to fix xml load issue 11/2019
-libraryDependencies += "org.w3c" % "dom" % "2.3.0-jaxb-1.0.6"
+//libraryDependencies += "org.w3c" % "dom" % "2.3.0-jaxb-1.0.6"
 //libraryDependencies += "dom4j" % "dom4j" % "1.6.1"
 
 libraryDependencies += evolutions
