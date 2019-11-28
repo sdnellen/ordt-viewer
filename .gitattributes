@@ -19,8 +19,8 @@
 *.xml           text
 *.coffee        text
 *.sbt        text
+*.md       text
 
-README.md       text
 build.gradle    text
 conf/application.conf     text
 conf/routes     text
