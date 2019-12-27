@@ -21,7 +21,7 @@ $ ->
   targetOwner = loadIdElems.data('fowner')
   targetOwner ?= 'any'
   rr = jsRoutes.controllers.Application.getLoads()
-  #alert("type=" + rr.type + ", url=" + rr.url)
+  alert("loads.cofee: type=" + rr.type + ", url=" + rr.url)
   $.get rr.url, (loads) ->
     hrow = $("<tr>")
     hrow.addClass("active")

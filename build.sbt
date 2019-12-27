@@ -1,7 +1,7 @@
 name := """ordt-viewer"""
 organization := "com.example"
 
-version := "191127-1-SNAPSHOT"
+version := "191226-1-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
@@ -14,8 +14,11 @@ JsEngineKeys.engineType := JsEngineKeys.EngineType.Node
 libraryDependencies += javaJpa
 
 // 5.3.6 uses dom4j 1.6.1, 5.3.7 uses 2.1.1
-libraryDependencies += "org.hibernate" % "hibernate-core" % "5.3.7.Final"
+//libraryDependencies += "org.hibernate" % "hibernate-core" % "5.3.7.Final"
 //libraryDependencies += "org.hibernate" % "hibernate-core" % "5.2.5.Final"
+
+// trying this per play 2.5 docs - 12/26/19
+libraryDependencies +=   "org.hibernate" % "hibernate-entitymanager" % "5.1.0.Final"
 
 // adding to fix xml load issue 11/2019
 //libraryDependencies += "org.w3c" % "dom" % "2.3.0-jaxb-1.0.6"
